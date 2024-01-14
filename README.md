@@ -1,2 +1,2 @@
 # 63134463-AndroidProgramming
-change ND
+Lưu lại các nội dung trong dự án JAVA
