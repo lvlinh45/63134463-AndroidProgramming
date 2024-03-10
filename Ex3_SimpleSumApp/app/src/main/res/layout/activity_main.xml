@@ -54,6 +54,7 @@
         android:layout_width="147dp"
         android:layout_height="49dp"
         android:layout_marginTop="30dp"
+        android:onClick="XuLyCong"
         android:text="TÍNH TỔNG"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.447"
