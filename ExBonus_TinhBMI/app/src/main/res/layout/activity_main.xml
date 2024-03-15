@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+
+    <TextView
+        android:layout_marginTop="66dp"
+        android:textAlignment="center"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cân nặng" />
+
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/edt1"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginBottom="66dp"
+        />
+
+    <TextView
+        android:textAlignment="center"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chiều cao" />
+
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/edt2"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginBottom="40dp"
+        />
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/button"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Tính"
+        />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:id="@+id/bmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/remind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+</LinearLayout>
