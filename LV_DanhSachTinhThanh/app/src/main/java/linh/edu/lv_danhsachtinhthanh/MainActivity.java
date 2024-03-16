@@ -5,6 +5,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,7 +16,7 @@ import androidx.core.view.WindowInsetsCompat;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-
+    ArrayList<String> dsTenTinhThanhVN;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         //ở bài này chúng ta hard-code dữ liệu trực tiếp
         // Cần biến phù hợp để chứa dữ liệu
 
-        ArrayList<String> dsTenTinhThanhVN = new ArrayList<String>();
+        dsTenTinhThanhVN = new ArrayList<String>();
         // Thêm dữ liệu ở đây
         dsTenTinhThanhVN.add("Khánh Hòa");
         dsTenTinhThanhVN.add("Quảng Bình");
@@ -51,6 +52,21 @@ public class MainActivity extends AppCompatActivity {
         // 3.2: Gắn vào
         lvTenTinhThanh.setAdapter(adapterTinhThanh);
         // 3.3 Lắng nghe và xử lí sự kiện user tương tác
+        // gắn bộ lắng nghe vào
+        lvTenTinhThanh.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                // code xử lí ở đây
+                // ví dụ xử lí ở đây là hiện lên màn hình một thông báo nhanh về vị trí của phần tử vừa chọn
+                // vd khác, thay vì hiện vị trí thì ta hiện giá trị
+                // Lấy giá trị phần tử thứ i
+                String strTenTinh = dsTenTinhThanhVN.get(position);
+//                Toast.makeText(MainActivity.this, "Bạn vừa chọn: " + String.valueOf(position), Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Bạn vừa chọn: " + strTenTinh, Toast.LENGTH_SHORT).show();
 
+            }
+        });
     }
+    // tạo bộ lắng nghe và xử lí sự kiện OnItemClick
+    // Vd: boLangNghevaXL
 }
