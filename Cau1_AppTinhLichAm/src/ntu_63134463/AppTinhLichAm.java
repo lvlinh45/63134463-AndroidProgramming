@@ -11,6 +11,7 @@ import java.awt.Font;
 import java.awt.Color;
 import javax.swing.SwingConstants;
 import javax.swing.JTextField;
+import javax.swing.Icon;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
@@ -32,7 +33,7 @@ public class AppTinhLichAm extends JFrame {
 		
 		JPanel panel = new JPanel();
 		panel.setBackground(Color.GREEN);
-		panel.setBounds(10, 0, 760, 156);
+		panel.setBounds(0, 0, 770, 156);
 		contentPane.add(panel);
 		panel.setLayout(null);
 		
@@ -49,30 +50,92 @@ public class AppTinhLichAm extends JFrame {
 		contentPane.add(lblNewLabel_1);
 		
 		edtDuongLich = new JTextField();
+		edtDuongLich.setFont(new Font("Times New Roman", Font.PLAIN, 24));
 		edtDuongLich.setBounds(325, 194, 364, 49);
 		contentPane.add(edtDuongLich);
 		edtDuongLich.setColumns(10);
 		
 		JLabel lblNewLabel_1_1 = new JLabel("Năm Âm lịch: ");
 		lblNewLabel_1_1.setFont(new Font("Times New Roman", Font.PLAIN, 24));
-		lblNewLabel_1_1.setBounds(71, 390, 205, 33);
+		lblNewLabel_1_1.setBounds(71, 378, 205, 33);
 		contentPane.add(lblNewLabel_1_1);
 		
 		edtAmLich = new JTextField();
 		edtAmLich.setEditable(false);
 		edtAmLich.setEnabled(false);
+		edtAmLich.setFont(new Font("Times New Roman", Font.PLAIN, 24));
 		edtAmLich.setBounds(325, 374, 364, 49);
 		contentPane.add(edtAmLich);
 		edtAmLich.setColumns(10);
 		
-		JButton btnNewButton = new JButton("Chuyển đổi");
-		btnNewButton.addActionListener(new ActionListener() {
+		JButton btnExchange = new JButton("Chuyển đổi");
+		btnExchange.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				// Hàm xử lý
+				exchange();
 			}
 		});
-		btnNewButton.setBackground(Color.GREEN);
-		btnNewButton.setBounds(510, 286, 179, 45);
-		contentPane.add(btnNewButton);
-		
+		btnExchange.setFont(new Font("Times New Roman", Font.PLAIN, 20));
+		btnExchange.setBounds(510, 288, 179, 45);
+		contentPane.add(btnExchange);
+		btnExchange.setBackground(Color.GREEN);
+		btnExchange.setVisible(true);
+	}
+	
+	void exchange() {
+		 String can = "",chi = "", amlich = "";
+		String strDuongLich = edtDuongLich.getText();
+		int soNamDuong = Integer.parseInt(strDuongLich);
+		switch (soNamDuong % 10) {
+        case 0: can = "Canh";
+            break;
+        case 1: can = "Tân";
+            break;
+        case 2: can = "Nhâm";
+            break;
+        case 3: can = "Quý";
+            break;
+        case 4: can = "Giáp";
+            break;
+        case 5: can = "Ất";
+            break;
+        case 6: can = "Bính";
+            break;
+        case 7: can = "Đinh";
+            break;
+        case 8: can = "Mậu";
+            break;
+        case 9: can = "Kỷ";
+            break;
+    }
+
+    switch (soNamDuong % 12) {
+        case 0: chi = "Thân";
+            break;
+        case 1: chi = "Dậu";
+            break;
+        case 2: chi = "Tuất";
+            break;
+        case 3: chi = "Hợi";
+            break;
+        case 4: chi = "Tý";
+            break;
+        case 5: chi = "Sửa";
+            break;
+        case 6: chi = "Dần";
+            break;
+        case 7: chi = "Mão";
+            break;
+        case 8: chi = "Thìn";
+            break;
+        case 9: chi = "Tỵ";
+            break;
+        case 10: chi = "Ngọ";
+            break;
+        case 11: chi = "Mùi";
+            break;
+    }
+    amlich = can + " " + chi;
+    edtAmLich.setText(amlich);
 	}
 }
