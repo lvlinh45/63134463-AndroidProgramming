@@ -17,6 +17,7 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.ImageIcon;
+import javax.swing.JSlider;
 
 public class AppTinhLichAm extends JFrame {
 
@@ -53,6 +54,7 @@ public class AppTinhLichAm extends JFrame {
 		contentPane.add(lblNewLabel_1);
 		
 		edtDuongLich = new JTextField();
+		edtDuongLich.setHorizontalAlignment(SwingConstants.CENTER);
 		edtDuongLich.setFont(new Font("Times New Roman", Font.PLAIN, 24));
 		edtDuongLich.setBounds(325, 194, 364, 49);
 		contentPane.add(edtDuongLich);
@@ -64,6 +66,7 @@ public class AppTinhLichAm extends JFrame {
 		contentPane.add(lblNewLabel_1_1);
 		
 		edtAmLich = new JTextField();
+		edtAmLich.setHorizontalAlignment(SwingConstants.CENTER);
 		edtAmLich.setEditable(false);
 		edtAmLich.setEnabled(false);
 		edtAmLich.setFont(new Font("Times New Roman", Font.PLAIN, 24));
