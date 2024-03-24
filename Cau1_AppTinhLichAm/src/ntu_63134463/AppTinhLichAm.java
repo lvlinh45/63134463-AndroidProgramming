@@ -5,6 +5,7 @@ import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+import javax.swing.border.Border;
 import javax.swing.border.EmptyBorder;
 import javax.swing.JLabel;
 import java.awt.Font;
@@ -15,6 +16,7 @@ import javax.swing.Icon;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import javax.swing.ImageIcon;
 
 public class AppTinhLichAm extends JFrame {
 
@@ -70,6 +72,8 @@ public class AppTinhLichAm extends JFrame {
 		edtAmLich.setColumns(10);
 		
 		JButton btnExchange = new JButton("Chuyển đổi");
+		btnExchange.setForeground(new Color(255, 255, 255));
+		btnExchange.setBorder(null);
 		btnExchange.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				// Hàm xử lý
