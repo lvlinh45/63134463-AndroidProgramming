@@ -36,14 +36,17 @@
         />
 
     <Button
-        android:textColor="@color/white"
-        android:background="@drawable/add_button"
+        android:paddingRight="30dp"
+        android:paddingLeft="20dp"
         android:id="@+id/btnThem"
         android:layout_width="130dp"
         android:layout_height="55dp"
         android:layout_marginTop="30dp"
         android:layout_marginBottom="30dp"
+        android:background="@drawable/add_button"
+        android:drawableRight="@android:drawable/ic_input_add"
         android:text="Thêm"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/lvMonHoc"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.056"
@@ -51,11 +54,14 @@
         app:layout_constraintTop_toBottomOf="@+id/edtMonHoc" />
 
     <Button
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
         android:textColor="@color/white"
         android:id="@+id/btnUpdate"
         android:layout_width="130dp"
         android:layout_height="55dp"
         android:background="@drawable/update_button"
+        android:drawableRight="@android:drawable/ic_menu_edit"
         android:layout_marginTop="30dp"
         android:layout_marginBottom="30dp"
         android:text="Cập nhật"
@@ -67,7 +73,10 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
         android:background="@drawable/refresh_button"
+        android:drawableRight="@android:drawable/stat_notify_sync"
         android:textColor="@color/white"
         android:id="@+id/btnLamMoi"
         android:layout_width="130dp"

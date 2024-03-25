@@ -2,11 +2,13 @@ package ntu.ntu_63134463;
 
 import android.os.Bundle;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
@@ -35,8 +37,6 @@ public class MainActivity extends AppCompatActivity {
         btnCapNhat = (Button) findViewById(R.id.btnUpdate) ;
         btnLamMoi = (Button) findViewById(R.id.btnLamMoi) ;
         edtMonHoc = (EditText) findViewById(R.id.edtMonHoc);
-        edtMonHoc = (EditText) findViewById(R.id.edtMonHoc);
-
 
         danhSachMonHoc = new ArrayList<String>();
         // Thêm dữ liệu ở đây
@@ -56,7 +56,19 @@ public class MainActivity extends AppCompatActivity {
                 this,
                 android.R.layout.simple_list_item_1,
                 danhSachMonHoc
-        );
+        ) {
+            @Override
+            public View getView(int position, View convertView, ViewGroup parent) {
+                View view = super.getView(position, convertView, parent);
+
+                TextView textView = (TextView) view.findViewById(android.R.id.text1);
+
+                // Đặt màu cho chữ trong mỗi item trong ListView
+                textView.setTextColor(getResources().getColor(R.color.white)); // Thay your_text_color bằng id của màu bạn muốn
+
+                return view;
+            }
+        };
 
 
 
