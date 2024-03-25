@@ -39,6 +39,21 @@
         android:text="Thêm"
         app:layout_constraintBottom_toTopOf="@+id/lvMonHoc"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtMonHoc" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="Cập nhật"
+        app:layout_constraintBottom_toTopOf="@+id/lvMonHoc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.831"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtMonHoc" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

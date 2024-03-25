@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
     ArrayList <String> danhSachMonHoc;
     Button btnThem;
+    Button btnCapNhat;
     EditText edtMonHoc;
 
     @Override
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         btnThem = (Button) findViewById(R.id.btnThem) ;
+        btnCapNhat = (Button) findViewById(R.id.btnUpdate) ;
         edtMonHoc = (EditText) findViewById(R.id.edtMonHoc);
 
         danhSachMonHoc = new ArrayList<String>();
@@ -55,8 +57,9 @@ public class MainActivity extends AppCompatActivity {
         lvTenMonHoc.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                String strTenTinh = danhSachMonHoc.get(position);
-                Toast.makeText(MainActivity.this, "Bạn vừa chọn: " + strTenTinh, Toast.LENGTH_SHORT).show();
+                edtMonHoc.setText(danhSachMonHoc.get(position));
+                String strMonHoc = danhSachMonHoc.get(position);
+                Toast.makeText(MainActivity.this, "Bạn vừa chọn: " + strMonHoc, Toast.LENGTH_SHORT).show();
 
             }
         });
@@ -67,7 +70,10 @@ public class MainActivity extends AppCompatActivity {
                 String monHoc = edtMonHoc.getText().toString();
                 danhSachMonHoc.add(monHoc);
                 // notifyDatachange là phương thức để cập nhật lại
+                adapterMonHoc.notifyDataSetChanged();
             }
         });
+
+
     }
 }
