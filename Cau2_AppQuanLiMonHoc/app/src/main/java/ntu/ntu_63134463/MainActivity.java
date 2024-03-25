@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnCapNhat;
     EditText edtMonHoc;
 
+    int viTri = -1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,6 +59,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 edtMonHoc.setText(danhSachMonHoc.get(position));
+
+                // Lấy vị trí
+                viTri = position;
                 String strMonHoc = danhSachMonHoc.get(position);
                 Toast.makeText(MainActivity.this, "Bạn vừa chọn: " + strMonHoc, Toast.LENGTH_SHORT).show();
 
@@ -74,6 +78,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        btnCapNhat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                danhSachMonHoc.set(viTri, edtMonHoc.getText().toString());
+                // Gán xong cập nhật lại
+                adapterMonHoc.notifyDataSetChanged();
+            }
+        });
 
     }
 }
