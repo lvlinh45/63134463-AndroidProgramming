@@ -89,6 +89,7 @@ public class AppTinhLichAm extends JFrame {
 		btnExchange.setBackground(Color.GREEN);
 		
 		JLabel lblNewLabel_2 = new JLabel("Được thực hiện bởi:  Lương Văn Linh");
+		lblNewLabel_2.setEnabled(false);
 		lblNewLabel_2.setHorizontalAlignment(SwingConstants.CENTER);
 		lblNewLabel_2.setFont(new Font("Times New Roman", Font.PLAIN, 16));
 		lblNewLabel_2.setBounds(216, 524, 380, 40);
