@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:background="@drawable/bg"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -13,16 +13,20 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp">
+        tools:layout_editor_absoluteY="-16dp">
 
         <TextView
+            android:textColor="@color/white"
+
+            android:drawableLeft="@android:drawable/stat_sys_speakerphone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="0928537287 "
-            tools:layout_editor_absoluteX="180dp"
+            tools:layout_editor_absoluteX="195dp"
             tools:layout_editor_absoluteY="89dp" />
 
         <TextView
+            android:textColor="@color/white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="luongvanlinh.45@gmail.com"
@@ -30,27 +34,34 @@
             tools:layout_editor_absoluteY="156dp" />
 
         <TextView
+            android:textColor="@color/white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Vĩnh Phước, Nha Trang"
             tools:layout_editor_absoluteX="195dp"
             tools:layout_editor_absoluteY="197dp" />
-
         <TextView
+            android:textColor="@color/white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Nam"
-            tools:layout_editor_absoluteX="329dp"
-            tools:layout_editor_absoluteY="52dp" />
-
+            tools:layout_editor_absoluteX="342dp"
+            tools:layout_editor_absoluteY="89dp" />
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+
+            android:layout_width="131dp"
+            android:layout_height="35dp"
+            android:drawableLeft="@android:drawable/ic_menu_my_calendar"
+            android:gravity="center"
             android:text="14/04/2003 "
-            tools:layout_editor_absoluteX="180dp"
-            tools:layout_editor_absoluteY="52dp" />
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="87dp"
+            tools:layout_editor_absoluteY="406dp" />
 
         <ImageView
+            android:textColor="@color/white"
+
             android:id="@+id/imageView4"
             android:layout_width="178dp"
             android:layout_height="227dp"
@@ -61,19 +72,13 @@
             app:srcCompat="@mipmap/ab" />
 
         <TextView
-           android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Lương Văn Linh"
             tools:layout_editor_absoluteX="222dp"
             tools:layout_editor_absoluteY="33dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="14/04/2003 "
-        tools:layout_editor_absoluteX="180dp"
-        tools:layout_editor_absoluteY="52dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
