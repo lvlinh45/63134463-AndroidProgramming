@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     ArrayList <String> danhSachMonHoc;
     Button btnThem;
     Button btnCapNhat;
+    Button btnLamMoi;
     EditText edtMonHoc;
 
     int viTri = 0;
@@ -32,7 +33,10 @@ public class MainActivity extends AppCompatActivity {
 
         btnThem = (Button) findViewById(R.id.btnThem) ;
         btnCapNhat = (Button) findViewById(R.id.btnUpdate) ;
+        btnLamMoi = (Button) findViewById(R.id.btnLamMoi) ;
         edtMonHoc = (EditText) findViewById(R.id.edtMonHoc);
+        edtMonHoc = (EditText) findViewById(R.id.edtMonHoc);
+
 
         danhSachMonHoc = new ArrayList<String>();
         // Thêm dữ liệu ở đây
@@ -93,6 +97,13 @@ public class MainActivity extends AppCompatActivity {
                 danhSachMonHoc.remove(viTri);
                 adapterMonHoc.notifyDataSetChanged();
                 return false;
+            }
+        });
+
+        btnLamMoi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                edtMonHoc.setText("");
             }
         });
     }
