@@ -47,6 +47,10 @@ public class MainActivity extends AppCompatActivity {
         danhSachMonHoc.add("Lập trình di động");
         danhSachMonHoc.add("Lập trình game");
         danhSachMonHoc.add("Hướng đối tượng");
+        danhSachMonHoc.add("Đại số Tuyến Tính");
+        danhSachMonHoc.add("Xác xuất Thống kê");
+        danhSachMonHoc.add("Mạng Máy Tính");
+        danhSachMonHoc.add("Công nghệ phần mềm");
 
         ArrayAdapter<String> adapterMonHoc = new ArrayAdapter<String>(
                 this,
