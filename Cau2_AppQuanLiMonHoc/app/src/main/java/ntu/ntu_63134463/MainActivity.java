@@ -61,6 +61,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-    
+        btnThem.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String monHoc = edtMonHoc.getText().toString();
+                danhSachMonHoc.add(monHoc);
+                // notifyDatachange là phương thức để cập nhật lại
+            }
+        });
     }
 }
