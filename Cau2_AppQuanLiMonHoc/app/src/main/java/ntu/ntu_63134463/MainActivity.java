@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnCapNhat;
     EditText edtMonHoc;
 
-    int viTri = -1;
+    int viTri = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -87,5 +87,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        lvTenMonHoc.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
+                danhSachMonHoc.remove(viTri);
+                adapterMonHoc.notifyDataSetChanged();
+                return false;
+            }
+        });
     }
 }
