@@ -42,6 +42,7 @@ public class AppTinhLichAm extends JFrame {
 		panel.setLayout(null);
 		
 		JLabel lblNewLabel = new JLabel("CHUYỂN ĐỔI NĂM DƯƠNG LỊCH SANG ÂM LỊCH");
+		lblNewLabel.setForeground(new Color(255, 255, 255));
 		lblNewLabel.setBounds(-11, 0, 761, 156);
 		panel.add(lblNewLabel);
 		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
