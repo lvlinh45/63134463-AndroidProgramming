@@ -201,10 +201,22 @@
             app:layout_constraintTop_toBottomOf="@+id/sothich" />
 
         <TextView
+            android:id="@+id/future"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="6dp"
+            android:text="III. NGHỀ NGHIỆP MONG MUỐN"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sothich" />
+
+        <TextView
             android:id="@+id/sothich2"
             android:layout_width="396dp"
             android:layout_height="47dp"
-            android:layout_marginStart="9dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
             android:text="- Trở thành một Web Developer sau đó thì chuyển dần sang kinh doanh."
             android:textColor="@color/white"
@@ -231,6 +243,42 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/sothich2"
             app:layout_constraintVertical_bias="0.55" />
+
+        <TextView
+            android:id="@+id/chucvu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="26dp"
+            android:text="IV. CHỨC VỤ ĐOÀN"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sothich2" />
+
+        <TextView
+            android:id="@+id/chucvu1"
+            android:layout_width="396dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="- Phó bí thư Đoàn Khoa Công nghệ thông tin"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chucvu" />
+
+        <TextView
+            android:id="@+id/chucvu1"
+            android:layout_width="396dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="42dp"
+            android:text="- LCH Phó LCH Khoa Công nghệ thông tin"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chucvu" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
