@@ -62,7 +62,7 @@ public class AppTinhLichAm extends JFrame {
 		
 		JLabel lblNewLabel_1_1 = new JLabel("Năm Âm lịch: ");
 		lblNewLabel_1_1.setFont(new Font("Times New Roman", Font.PLAIN, 24));
-		lblNewLabel_1_1.setBounds(71, 378, 205, 33);
+		lblNewLabel_1_1.setBounds(71, 399, 205, 33);
 		contentPane.add(lblNewLabel_1_1);
 		
 		edtAmLich = new JTextField();
@@ -70,7 +70,7 @@ public class AppTinhLichAm extends JFrame {
 		edtAmLich.setEditable(false);
 		edtAmLich.setEnabled(false);
 		edtAmLich.setFont(new Font("Times New Roman", Font.PLAIN, 24));
-		edtAmLich.setBounds(325, 374, 364, 49);
+		edtAmLich.setBounds(325, 395, 364, 49);
 		contentPane.add(edtAmLich);
 		edtAmLich.setColumns(10);
 		
@@ -84,7 +84,7 @@ public class AppTinhLichAm extends JFrame {
 			}
 		});
 		btnExchange.setFont(new Font("Times New Roman", Font.PLAIN, 20));
-		btnExchange.setBounds(510, 288, 179, 45);
+		btnExchange.setBounds(511, 302, 179, 45);
 		contentPane.add(btnExchange);
 		btnExchange.setBackground(Color.GREEN);
 		btnExchange.setVisible(true);
