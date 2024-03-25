@@ -10,6 +10,7 @@
 
 
     <ListView
+
         android:cacheColorHint="@color/white"
         android:id="@+id/lvMonHoc"
         android:layout_width="wrap_content"
@@ -35,6 +36,8 @@
         />
 
     <Button
+        android:textColor="@color/white"
+        android:background="@drawable/add_button"
         android:id="@+id/btnThem"
         android:layout_width="130dp"
         android:layout_height="55dp"
@@ -48,9 +51,11 @@
         app:layout_constraintTop_toBottomOf="@+id/edtMonHoc" />
 
     <Button
+        android:textColor="@color/white"
         android:id="@+id/btnUpdate"
         android:layout_width="130dp"
         android:layout_height="55dp"
+        android:background="@drawable/update_button"
         android:layout_marginTop="30dp"
         android:layout_marginBottom="30dp"
         android:text="Cập nhật"
@@ -62,6 +67,8 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
+        android:background="@drawable/refresh_button"
+        android:textColor="@color/white"
         android:id="@+id/btnLamMoi"
         android:layout_width="130dp"
         android:layout_height="55dp"
