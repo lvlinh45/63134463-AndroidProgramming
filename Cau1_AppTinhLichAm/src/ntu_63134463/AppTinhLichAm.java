@@ -76,7 +76,7 @@ public class AppTinhLichAm extends JFrame {
 		edtAmLich.setColumns(10);
 		
 		JButton btnExchange = new JButton("Chuyển đổi");
-		btnExchange.setForeground(new Color(255, 255, 255));
+		btnExchange.setForeground(new Color(0, 0, 0));
 		btnExchange.setBorder(null);
 		btnExchange.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
