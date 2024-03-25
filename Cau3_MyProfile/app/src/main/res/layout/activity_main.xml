@@ -7,13 +7,73 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0928537287 "
+            tools:layout_editor_absoluteX="180dp"
+            tools:layout_editor_absoluteY="89dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="luongvanlinh.45@gmail.com"
+            tools:layout_editor_absoluteX="195dp"
+            tools:layout_editor_absoluteY="156dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vĩnh Phước, Nha Trang"
+            tools:layout_editor_absoluteX="195dp"
+            tools:layout_editor_absoluteY="197dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nam"
+            tools:layout_editor_absoluteX="329dp"
+            tools:layout_editor_absoluteY="52dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14/04/2003 "
+            tools:layout_editor_absoluteX="180dp"
+            tools:layout_editor_absoluteY="52dp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="178dp"
+            android:layout_height="227dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/ab" />
+
+        <TextView
+           android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lương Văn Linh"
+            tools:layout_editor_absoluteX="222dp"
+            tools:layout_editor_absoluteY="33dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="14/04/2003 "
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="52dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
