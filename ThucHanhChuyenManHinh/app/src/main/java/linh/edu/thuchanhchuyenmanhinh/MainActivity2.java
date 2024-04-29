@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -26,6 +27,19 @@ public class MainActivity2 extends AppCompatActivity {
         Button btnManHinh2   = findViewById(R.id.btnmh2);
         // 2. Gắn bộ lắng nghe
         btnManHinh2.setOnClickListener(BoChuyenLangNgheMH); // Ta sẽ code ở dưới
+
+        // Khi màn hình mở ra, ta lấy Intent đã kích hoạt
+        Intent thuNhanDuoc = getIntent();
+//        bóc dữ liệu ra xem
+        String ten = thuNhanDuoc.getStringExtra("Tete");
+        String tuoi = thuNhanDuoc.getStringExtra("Toto");
+
+        //Đưa lên điê khiển
+        TextView tvTen = findViewById(R.id.tvHoTen);
+        TextView tvTuoi = findViewById(R.id.tvTuoi);//
+        tvTen.setText("Tên: " + ten);
+        tvTuoi.setText("Tuối: " + tuoi);
+
     }
 
     // ở đây nhé, ngoài hàm oncreate
