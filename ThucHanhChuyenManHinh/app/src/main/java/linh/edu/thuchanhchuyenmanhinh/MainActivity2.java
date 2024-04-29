@@ -37,8 +37,8 @@ public class MainActivity2 extends AppCompatActivity {
         //Đưa lên điê khiển
         TextView tvTen = findViewById(R.id.tvHoTen);
         TextView tvTuoi = findViewById(R.id.tvTuoi);//
-        tvTen.setText("Tên: " + ten);
-        tvTuoi.setText("Tuối: " + tuoi);
+        tvTen.setText("Tên: " + ten + "");
+        tvTuoi.setText("Tuối: " + tuoi + "");
 
     }
 
