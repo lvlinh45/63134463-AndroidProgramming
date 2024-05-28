@@ -11,7 +11,7 @@
 <div>
   <h4>Câu 1: <a href = "https://github.com/lvlinh45/63134463-AndroidProgramming/tree/main/Cau1_AppTinhLichAm">AppTinhLichAm</a></h4>
   <h4>Link figma: <a href = "https://www.figma.com/design/BThdmCncyAAwOhojlOv4ep/CHUY%E1%BB%82N-%C4%90%E1%BB%94I-L%E1%BB%8ACH?t=p3klATeDbtcAbAFo-0">Figma Câu 1</a></h4>
-  <img src = "https://github.com/lvlinh45/63134463-AndroidProgramming/blob/main/Images/Cau1.png" width = "200">
+  <img src = "https://github.com/lvlinh45/63134463-AndroidProgramming/blob/main/Images/Cau1.png" width = "500">
 </div>
 <div>
   <h4>Câu 2: <a href = "https://github.com/lvlinh45/63134463-AndroidProgramming/tree/main/Cau2_AppQuanLiMonHoc">AppQuanLyMonHoc</a></h4>
