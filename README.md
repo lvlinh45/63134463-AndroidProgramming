@@ -10,14 +10,17 @@
 
 <div>
   <h4>Câu 1: <a href = "https://github.com/lvlinh45/63134463-AndroidProgramming/tree/main/Cau1_AppTinhLichAm">AppTinhLichAm</a></h4>
+  <h4>Link figma: <a href = "https://www.figma.com/design/BThdmCncyAAwOhojlOv4ep/CHUY%E1%BB%82N-%C4%90%E1%BB%94I-L%E1%BB%8ACH?t=p3klATeDbtcAbAFo-0">Figma Câu 1</a></h4>
   <img src = "https://github.com/lvlinh45/63134463-AndroidProgramming/blob/main/Images/Cau1.png" width = "200">
 </div>
 <div>
   <h4>Câu 2: <a href = "https://github.com/lvlinh45/63134463-AndroidProgramming/tree/main/Cau2_AppQuanLiMonHoc">AppQuanLyMonHoc</a></h4>
+  <h4>Link figma: <a href = "https://www.figma.com/design/wxMxnRcqgxRowszNmks3tJ/APP-QU%E1%BA%A2N-L%C3%8D-M%C3%94N-H%E1%BB%8CC?t=BwVrhuaR2JdmemRH-0">Figma Câu 2</a></h4>
   <img src = "https://github.com/lvlinh45/63134463-AndroidProgramming/blob/main/Images/Cau2.png" width = "200">
 </div>
 <div>
   <h4>Câu 3: <a href = "https://github.com/lvlinh45/63134463-AndroidProgramming/tree/main/Cau3_MyProfile">MyProfile</a></h4>
+  <h4>Link figma: <a href = "https://www.figma.com/design/M29NWAHGZ1svpONFNKQHvc/MY-PROFILE?node-id=0-1&t=sIahR1vTMnx3cAI1-0">Figma Câu 3</a></h4>
   <img src = "https://github.com/lvlinh45/63134463-AndroidProgramming/blob/main/Images/Cau3.png" width = "200">
 </div>
 
