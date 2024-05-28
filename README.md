@@ -9,16 +9,16 @@
 ###
 
 <div>
-  <h4>CÂu 1: <a href = "https://github.com/lvlinh45/63134463-AndroidProgramming/tree/main/Cau1_AppTinhLichAm">AppTinhLichAm</a></h4>
-  <img src = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/blob/main/images/bnv1.png" width = "200">
+  <h4>Câu 1: <a href = "https://github.com/lvlinh45/63134463-AndroidProgramming/tree/main/Cau1_AppTinhLichAm">AppTinhLichAm</a></h4>
+  <img src = "" width = "200">
 </div>
 <div>
-  <h4>CÂu 2: <a href = "https://github.com/lvlinh45/63134463-AndroidProgramming/tree/main/Cau2_AppQuanLiMonHoc">AppQuanLyMonHoc</a></h4>
-  <img src = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/blob/main/images/bnv1.png" width = "200">
+  <h4>Câu 2: <a href = "https://github.com/lvlinh45/63134463-AndroidProgramming/tree/main/Cau2_AppQuanLiMonHoc">AppQuanLyMonHoc</a></h4>
+  <img src = "" width = "200">
 </div>
 <div>
-  <h4>CÂu 3: <a href = "https://github.com/lvlinh45/63134463-AndroidProgramming/tree/main/Cau3_MyProfile">MyProfile</a></h4>
-  <img src = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/blob/main/images/bnv1.png" width = "200">
+  <h4>Câu 3: <a href = "https://github.com/lvlinh45/63134463-AndroidProgramming/tree/main/Cau3_MyProfile">MyProfile</a></h4>
+  <img src = "" width = "200">
 </div>
 
 <h2 align="left">🧧TRUY CẬP NHANH SOURCES CODE BÀI TẬP ĐIỂM CỘNG🧧</h2>
@@ -27,23 +27,23 @@
 
 <div>
   <h4>ExBonus_BottleGame: <a href = "https://github.com/lvlinh45/63134463-AndroidProgramming/tree/main/ExBonus_BottleGame">ExBonus_BottleGame</a></h4>
-  <img src = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/blob/main/images/bnv1.png" width = "200">
+  <img src = "" width = "200">
 </div>
 <div>
   <h4>ExBonus_ChangeCtoF: <a href = "https://github.com/lvlinh45/63134463-AndroidProgramming/tree/main/ExBonus_ChangeCtoF">ExBonus_ChangeCtoF</a></h4>
-  <img src = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/blob/main/images/bnv1.png" width = "200">
+  <img src = "" width = "200">
 </div>
 <div>
   <h4>ExBonus_TinhBMI: <a href = "https://github.com/lvlinh45/63134463-AndroidProgramming/tree/main/ExBonus_TinhBMI">ExBonus_TinhBMI</a></h4>
-  <img src = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/blob/main/images/bnv1.png" width = "200">
+  <img src = "" width = "200">
 </div>
 <div>
   <h4>MaterialDesign: <a href = "https://github.com/lvlinh45/63134463-AndroidProgramming/tree/main/MaterialDesign">MaterialDesign</a></h4>
-  <img src = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/blob/main/images/bnv1.png" width = "200">
+  <img src = "" width = "200">
 </div>
 <div>
   <h4>BONUS_viewPager2: <a href = "https://github.com/lvlinh45/63134463-AndroidProgramming/tree/main/BONUS_viewPager2">BONUS_viewPager2</a></h4>
-  <img src = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/blob/main/images/bnv1.png" width = "200">
+  <img src = "" width = "200">
 </div>
 
 <h2 align="left">😽TRUY CẬP NHANH SOURCES CODE BÀI TẬP THỰC HÀNH😽</h2>
@@ -94,19 +94,15 @@
   <img src = "" width = "200">
 </div>
 <div>
-  <h4>themPhanTuVaoListView: <a href = "https://github.com/lvlinh45/63134463-AndroidProgramming/tree/main/themPhanTuVaoListView">themPhanTuVaoListView</a></h4>
-  <img src = "" width = "200">
-</div>
-<div>
   <h4>ThucHanhChuyenManHinh: <a href = "https://github.com/lvlinh45/63134463-AndroidProgramming/tree/main/ThucHanhChuyenManHinh">ThucHanhChuyenManHinh</a></h4>
-  <img src = "" width = "200">
+  <img src = "https://github.com/lvlinh45/63134463-AndroidProgramming/blob/main/Images/chuyenmanhinh.1.png" width = "200">
 </div>
 <div>
   <h4>UsingRecyclerView: <a href = "https://github.com/lvlinh45/63134463-AndroidProgramming/tree/main/UsingRecyclerView">UsingRecyclerView</a></h4>
   <img src = "" width = "200">
 </div>
 <div>
-  <h4>ViewPager2RecyclerViewAdapter: <a href = "https://github.com/lvlinh45/63134463-AndroidProgramming/tree/main/ViewPager2RecyclerViewAdapter">ViewPager2RecyclerViewAdapter</a></h4>
+  <h4>ViewPager2RecyclerViewAdapter: <a href = "https://github.com/lvlinh45/63134463-AndroidProgramming/blob/main/Images/chuyenmanhinh.1.png">ViewPager2RecyclerViewAdapter</a></h4>
   <img src = "" width = "200">
 </div>
 <div>
