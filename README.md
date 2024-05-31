@@ -124,6 +124,6 @@
 </div>
 <div>
   <h4>SQLite: <a href = "https://github.com/lvlinh45/63134463-AndroidProgramming/tree/main/ViewPager2TabLayoutFragment">SQLite</a></h4>
-  <img src = "https://github.com/lvlinh45/63134463-AndroidProgramming/blob/main/Images/Viewpager2Tablayout.png" width = "200">
+  <img src = "https://github.com/lvlinh45/63134463-AndroidProgramming/tree/main/sqlite" width = "200">
 </div>
 _Lương Văn Linh - 63134463_
