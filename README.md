@@ -51,9 +51,9 @@
 </div>
 
 <div>
-  <h4>Navigation Drawer: <a href = "https://github.com/lvlinh45/63134463-AndroidProgramming/tree/main/BONUS_viewPager2">Navigation Drawer</a></h4>
-  <img src = "https://github.com/lvlinh45/63134463-AndroidProgramming/blob/main/Images/viewpager2.1.png" width = "200">
-  <img src = "https://github.com/lvlinh45/63134463-AndroidProgramming/blob/main/Images/viewpager2.png" width = "200">
+  <h4>Navigation Drawer: <a href = "https://github.com/lvlinh45/63134463-AndroidProgramming/tree/main/NavigationDrawler">Navigation Drawer</a></h4>
+  <img src = "https://github.com/lvlinh45/63134463-AndroidProgramming/blob/main/Images/NavigationDrawer.png" width = "200">
+ 
 </div>
 
 <h2 align="left">😽TRUY CẬP NHANH SOURCES CODE BÀI TẬP THỰC HÀNH😽</h2>
